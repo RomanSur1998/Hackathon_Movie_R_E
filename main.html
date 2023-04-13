@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="add">
+      <button class="addList">ADD MOVIE</button>
+      <input type="text" placeholder="Поиск" id="inp" />
+    </header>
+    <div class="users"></div>
+    <section class="modal">
+      <div class="modaldiv">
+        <input type="url" placeholder="Image" class="img" />
+        <input type="text" placeholder="Title" class="title" />
+        <input type="number" placeholder="Year" class="year" />
+        <input type="number" placeholder="Imdb" class="imdb" />
+        <input type="text" placeholder="Type" class="type" />
+        <button class="addMovie">ADD</button>
+        <button class="closeModal">CLOSE</button>
+      </div>
+    </section>
+    <div class="modal_block_edit">
+      <div class="edit_block">
+        <input type="url" placeholder="Image" class="img_ed" />
+        <input type="text" placeholder="Title" class="title_ed" />
+        <input type="number" placeholder="Year" class="year_ed" />
+        <input type="number" placeholder="Imdb" class="imdb_ed" />
+        <input type="text" placeholder="Type" class="type_ed" />
+        <button class="editMovie">EDIT</button>
+        <button class="closeModal_edit">CLOSE</button>
+      </div>
+    </div>
+    <div class="pagination">
+      <button>Previos</button>
+      <button>Next</button>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

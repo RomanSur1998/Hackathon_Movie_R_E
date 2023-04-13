@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  /* color: azure; */
+}
+body {
+  position: relative;
+  background-color: rgb(1, 0, 22);
+}
+.users {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgb(1, 0, 22);
+}
+.user-n {
+  position: relative;
+  width: 220px;
+  height: 480px;
+  background-color: rgb(1, 20, 44);
+  border-radius: 15px;
+  text-align: center;
+  margin: 20px;
+  color: black;
+  box-shadow: 10px black salmon;
+  border: 2px rgba(255, 255, 255, 0) solid;
+}
+
+.user-n:hover {
+  border: 2px white solid;
+  transition: 0.8s;
+}
+
+.user-n img {
+  border-radius: 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+.user-n h6 {
+  background-color: rgb(1, 20, 44);
+  margin: 5px;
+  margin-left: 15px;
+  font-size: small;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgba(240, 248, 255, 0.801);
+  text-align: start;
+}
+.user-n h5 {
+  margin-left: 30px;
+  background-color: rgb(1, 20, 44);
+  margin: 10px;
+  font-size: large;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: start;
+  color: aliceblue;
+}
+#last {
+  margin-bottom: 20px;
+}
+.hide {
+  display: none;
+}
+
+#inp {
+  margin: 20px auto;
+  text-align: center;
+  width: 600px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 10vw;
+  border: none;
+  border-radius: 40px;
+}
+.add {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.addList {
+  height: 50px;
+  width: 300px;
+  margin-left: 10vw;
+  border-radius: 40px;
+  border: none;
+  color: azure;
+  background-color: rgb(36, 161, 90);
+}
+.addList:hover {
+  background-color: rgb(46, 199, 112);
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  left: 40%;
+  top: 25%;
+  width: 350px;
+  height: 350px;
+  background-color: rgb(2, 55, 116);
+  display: none;
+  border-radius: 15px;
+}
+.modaldiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal input {
+  text-align: center;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  margin: 10px auto;
+}
+.modal button {
+  width: 200px;
+  height: 30px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 5px;
+}
+.addMovie {
+  background-color: rgb(36, 161, 90);
+}
+.closeModal {
+  background-color: rgb(209, 49, 49);
+}
+
+.btn_model_close {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  right: 8%;
+  top: 2%;
+  border-radius: 200%;
+  border: none;
+  background-image: url(./cancel.svg);
+  background-color: none;
+  background-size: cover;
+  display: none;
+}
+
+.btn_model_close:hover {
+  background-color: rgb(209, 49, 49);
+}
+
+.user-n:hover .btn_model_close {
+  display: block;
+  transition: 0.6s;
+}
+
+.btn_model_edit {
+  height: 40px;
+  width: 120px;
+  position: absolute;
+  right: 35%;
+  top: 2%;
+  border-radius: 50px;
+  border: none;
+  display: none;
+}
+
+.user-n:hover .btn_model_edit {
+  display: block;
+  transition: 0.4s;
+}
+
+.btn_model_edit:hover {
+  background-color: rgb(36, 161, 90);
+  transition: 1s;
+}
+
+.modal_block_edit {
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  left: 40%;
+  top: 25%;
+  width: 350px;
+  height: 350px;
+  background-color: rgb(4, 62, 137);
+  display: none;
+  border-radius: 15px;
+}
+
+.edit_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit_block input {
+  text-align: center;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  margin: 10px auto;
+}
+
+.edit_block button {
+  width: 200px;
+  height: 30px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 5px;
+}
+
+.editMovie {
+  background-color: rgb(36, 161, 90);
+}
+.closeModal_edit {
+  background-color: rgb(209, 49, 49);
+}
+
+.blockcard {
+  width: 200px;
+  height: 400px;
+  margin: 50px;
+}
+
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination button {
+  width: 150px;
+  height: 40px;
+  margin: 40px 10px;
+  border-radius: 40px;
+  border: none;
+  background-color: rgb(36, 161, 90);
+  color: azure;
+  text-transform: uppercase;
+}
