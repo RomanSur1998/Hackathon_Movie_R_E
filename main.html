@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Movie</title>
+    <title>Movie Hackathon</title>
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,33 +18,88 @@
       <button class="addList">ADD MOVIE</button>
       <input type="text" placeholder="Поиск" id="inp" />
     </header>
+    <div class="admin">
+      <button class="filter_btn">ADMIN</button>
+      <button class="filter_btn" id="user1">USER</button>
+    </div>
+    <!-- !filter buttons  -->
+    <div class="filter_btns container">
+      <button class="filter_btn" id="btn1">HORROR</button>
+      <button class="filter_btn" id="btn2">ACTION</button>
+      <button class="filter_btn" id="btn3">SCI-FI</button>
+      <button class="filter_btn" id="btn4">DRAMA</button>
+      <button class="filter_btn" id="btn5">ALL</button>
+    </div>
+    <!--! filter buttons   -->
+
     <div class="users"></div>
     <section class="modal">
       <div class="modaldiv">
+        <h3 style="color: white">ADD MOVIE</h3>
         <input type="url" placeholder="Image" class="img" />
         <input type="text" placeholder="Title" class="title" />
         <input type="number" placeholder="Year" class="year" />
         <input type="number" placeholder="Imdb" class="imdb" />
         <input type="text" placeholder="Type" class="type" />
+        <input type="text" placeholder="Description" class="desk" />
+        <input type="text" placeholder="Trailer" class="trailer" />
         <button class="addMovie">ADD</button>
         <button class="closeModal">CLOSE</button>
       </div>
     </section>
     <div class="modal_block_edit">
       <div class="edit_block">
+        <h3 style="color: white">EDIT MOVIE</h3>
         <input type="url" placeholder="Image" class="img_ed" />
         <input type="text" placeholder="Title" class="title_ed" />
         <input type="number" placeholder="Year" class="year_ed" />
         <input type="number" placeholder="Imdb" class="imdb_ed" />
         <input type="text" placeholder="Type" class="type_ed" />
+        <input type="text" placeholder="Description" class="desk_ed" />
+        <input type="text" placeholder="Trailer" class="trailer_ed" />
         <button class="editMovie">EDIT</button>
         <button class="closeModal_edit">CLOSE</button>
       </div>
     </div>
     <div class="pagination">
-      <button>Previos</button>
-      <button>Next</button>
+      <button id="prevBtn">Previos</button>
+      <button id="nextBtn">Next</button>
     </div>
+
+    <!-- ? Start modal -->
+    <div id="modal">
+      <div class="modalImg">
+        <img
+          id="detailsImg"
+          src="https://coconuts.co/wp-content/uploads/2019/11/01_joker.jpg"
+          alt="profPic"
+        />
+      </div>
+      <div id="modalRight">
+        <button id="closeBtn"></button>
+        <h2>Name</h2>
+        <h3>Year</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A similique
+          debitis ut error tempore dignissimos, odio quas sunt fugiat harum
+          libero in rerum recusandae, modi nesciunt, numquam provident.
+          Eligendi, labore?
+        </p>
+        <div class="trailer">
+          <iframe
+            width="300"
+            height="170"
+            src="https://www.youtube.com/embed/7kSuas6mRpk"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <!-- ? Finish modal -->
+
     <script src="./js/main.js"></script>
   </body>
 </html>

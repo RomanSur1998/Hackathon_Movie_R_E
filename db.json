@@ -1,52 +1,120 @@
 {
   "Search": [
     {
-      "Title": "e3456543",
-      "Year": "345653",
-      "imdbID": "98",
-      "Type": "32453",
-      "Poster": "https://images.unsplash.com/photo-1610599083971-83a1abb23a56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHdhbGxwYXBlciUyMGZvciUyMG1vYmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-      "id": 12
+      "Title": " It",
+      "Year": "2017",
+      "imdbID": "86",
+      "Type": "HORROR",
+      "Poster": "https://bookidote.files.wordpress.com/2017/09/tumblr_ov54m2g4bd1rp0vkjo2_1280.gif",
+      "Desk": "Seven helpless and bullied children are forced to face their worst nightmares when Pennywise, a shape-shifting clown, reappears. The clown, an ancient evil torments children before feeding on them.",
+      "Trailer": "https://www.youtube.com/embed/FnCdOQsX5kc",
+      "id": 23
     },
     {
-      "Title": "e3456543",
-      "Year": "345653",
-      "imdbID": "98",
-      "Type": "32453",
-      "Poster": "https://images.unsplash.com/photo-1628707351135-e963f2aa4387?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHdhbGxwYXBlciUyMGZvciUyMG1vYmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-      "id": 13
+      "Title": " The Nun ",
+      "Year": "2018",
+      "imdbID": "60",
+      "Type": "HORROR",
+      "Poster": "https://media.kg-portal.ru/movies/n/nun/posters/nun_10.jpg",
+      "Desk": "When a young nun at a cloistered abbey in Romania takes her own life, a priest with a haunted past and a novitiate on the threshold of her final vows are sent by the Vatican to investigate.",
+      "Trailer": "https://www.youtube.com/embed/pzD9zGcUNrw",
+      "id": 25
     },
     {
-      "Title": "Небо ",
-      "Year": "2007",
-      "imdbID": "200",
-      "Type": "небо",
-      "Poster": "https://plus.unsplash.com/premium_photo-1673002092591-207291eb728c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHdhbGxwYXBlciUyMGZvciUyMG1vYmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-      "id": 14
+      "Title": " Insidious",
+      "Year": "2010",
+      "imdbID": "86",
+      "Type": "HORROR",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTYyOTAxMDA0OF5BMl5BanBnXkFtZTcwNzgwNTc1NA@@._V1_FMjpg_UX1000_.jpg",
+      "Desk": "!Josh and Renai move to a new house, seeking a fresh start. However, when their son, Dalton, mysteriously falls into a coma, paranormal events start occurring in the house.",
+      "Trailer": "https://www.youtube.com/embed/zuZnRUcoWos",
+      "id": 25
     },
     {
-      "Title": "Spider",
-      "Year": "2007",
-      "imdbID": "200",
-      "Type": "небо",
-      "Poster": "https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8TW92aWUlMjBwb3N0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-      "id": 15
+      "Title": "Brightburn",
+      "Year": "2019",
+      "imdbID": "84",
+      "Type": "HORROR",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjc0YzM2ZjItNzE3OS00NTRhLTkyNTUtMjY5Y2Y5NTU3OWI0XkEyXkFqcGdeQXVyNjU2NTI4MjE@._V1_.jpg",
+      "Desk": "Tori and Kyle find a baby boy in a spaceship and adopt him as their own child, Brandon. However, after turning 12, Brandon learns that he has superpowers and begins to use them for sinister purposes.",
+      "Trailer": "https://www.youtube.com/embed/g6eB0JT1DI4",
+      "id": 27
     },
     {
-      "Title": "City",
-      "Year": "2007",
-      "imdbID": "200",
-      "Type": "New York",
-      "Poster": "https://images.unsplash.com/photo-1551803021-8694e68687e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGlyb24lMjBtYW4lMjB3YWxscGFwZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-      "id": 16
+      "Title": "The Avengers Endgame",
+      "Year": "2019",
+      "imdbID": "83",
+      "Type": "SCI-FI",
+      "Poster": "https://m.media-amazon.com/images/I/71niXI3lxlL._SL1183_.jpg",
+      "Desk": "After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance.",
+      "Trailer": "https://www.youtube.com/embed/TcMBFSGVi1c",
+      "id": 28
     },
     {
-      "Title": "City",
-      "Year": "2007",
-      "imdbID": "200",
-      "Type": "New York",
-      "Poster": "https://plus.unsplash.com/premium_photo-1673264933140-4b173a63372a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbHBhcGVyJTIwZm9yJTIwbW9iaWxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-      "id": 17
+      "Title": "The Dark Knight",
+      "Year": "2008",
+      "imdbID": "94",
+      "Type": "SCI-FI",
+      "Poster": "https://cdn.europosters.eu/image/750/posters/batman-dark-knight-joker-i13945.jpg",
+      "Desk": "After Gordon, Dent and Batman begin an assault on Gotham's organised crime, the mobs hire the Joker, a psychopathic criminal mastermind who offers to kill Batman and bring the city to its knees.",
+      "Trailer": "https://www.youtube.com/embed/EXeTwQWrcwY",
+      "id": 29
+    },
+    {
+      "Title": "Blade Runner 2049",
+      "Year": "2017",
+      "imdbID": "91",
+      "Type": "SCI-FI",
+      "Poster": "https://alternativemovieposters.com/wp-content/uploads/2022/11/Matt-Ferguson_BladeRunner.jpg",
+      "Desk": "K, an officer with the Los Angeles Police Department, unearths a secret that could create chaos. He goes in search of a former blade runner who has been missing for over three decades.",
+      "Trailer": "https://www.youtube.com/embed/gCcx85zbxz4",
+      "id": 30
+    },
+    {
+      "Title": "Kill Bill",
+      "Year": "2003",
+      "imdbID": "94",
+      "Type": "ACTION",
+      "Poster": "https://o22oxailtq6y.wpcdn.shift8cdn.com/wp-content/uploads/2022/10/97652.webp",
+      "Desk": "A pregnant assassin, code-named The Bride, goes into a coma for four years after her ex-boss Bill brutally attacks her. When she wakes up, she sets out to seek revenge on him and his associates.",
+      "Trailer": "https://www.youtube.com/embed/7kSuas6mRpk",
+      "id": 31
+    },
+    {
+      "Title": "Joker",
+      "Year": "2019",
+      "imdbID": "92",
+      "Type": "DRAMA",
+      "Poster": "https://coconuts.co/wp-content/uploads/2019/11/01_joker.jpg",
+      "Desk": "Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City.",
+      "Trailer": "https://www.youtube.com/embed/zAGVQLHvwOY",
+      "id": 32
+    },
+    {
+      "Title": "Parasite",
+      "Year": "2019",
+      "imdbID": "100",
+      "Type": "DRAMA",
+      "Poster": "https://assets.mubicdn.net/images/notebook/post_images/29836/images-w1400.jpg?1579571205",
+      "Desk": "The struggling Kim family sees an opportunity when the son starts working for the wealthy Park family. Soon, all of them find a way to work within the same household and start living a parasitic life.",
+      "Trailer": "https://www.youtube.com/embed/5xH0HfJHsaY",
+      "id": 33
+    },
+    {
+      "Title": "Rush Hour",
+      "Year": "1998",
+      "imdbID": "78",
+      "Type": "ACTION",
+      "Poster": "https://m.media-amazon.com/images/I/61hn3gcwBvL.jpg",
+      "Desk": "When a Chinese consul's young daughter is kidnapped, Hong Kong Detective Lee must team up with Carter, a loud-mouthed LA detective. Distinctive work styles and cultural differences pose hiccups.",
+      "Trailer": "https://www.youtube.com/embed/JMiFsFQcFLE",
+      "id": 34
     }
-  ]
+  ],
+  "Admin": {
+    "name": "admin",
+    "password": "1234",
+    "status": "false",
+    "id": "1"
+  }
 }
