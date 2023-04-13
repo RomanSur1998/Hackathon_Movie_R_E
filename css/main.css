@@ -9,6 +9,18 @@ body {
   position: relative;
   background-color: rgb(1, 0, 22);
 }
+
+/* ! -------ADMIN------  */
+.admin {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.admin button {
+  background-color: rgb(209, 49, 49);
+
+  /* !----------- CARDS-------------- */
+}
 .users {
   width: 100%;
   margin: 0 auto;
@@ -21,7 +33,7 @@ body {
 .user-n {
   position: relative;
   width: 220px;
-  height: 480px;
+  height: 540px;
   background-color: rgb(1, 20, 44);
   border-radius: 15px;
   text-align: center;
@@ -40,6 +52,7 @@ body {
   border-radius: 15px;
   margin: 0 auto;
   width: 100%;
+  height: 65%;
 }
 .user-n h6 {
   background-color: rgb(1, 20, 44);
@@ -94,9 +107,12 @@ body {
   border: none;
   color: azure;
   background-color: rgb(36, 161, 90);
+  margin-right: 15px;
 }
 .addList:hover {
   background-color: rgb(46, 199, 112);
+
+  /* ! ------------------- MODAL --------------------- */
 }
 .modal {
   display: flex;
@@ -104,12 +120,16 @@ body {
   align-items: center;
   position: fixed;
   left: 40%;
-  top: 25%;
+  top: 15%;
   width: 350px;
-  height: 350px;
+  height: 550px;
   background-color: rgb(2, 55, 116);
   display: none;
   border-radius: 15px;
+}
+.modal h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .modaldiv {
   display: flex;
@@ -148,7 +168,7 @@ body {
   top: 2%;
   border-radius: 200%;
   border: none;
-  background-image: url(./cancel.svg);
+  background-image: url(../images/cancel.svg);
   background-color: none;
   background-size: cover;
   display: none;
@@ -182,6 +202,8 @@ body {
 .btn_model_edit:hover {
   background-color: rgb(36, 161, 90);
   transition: 1s;
+  color: white;
+  border: 1px solid white;
 }
 
 .modal_block_edit {
@@ -189,12 +211,16 @@ body {
   align-items: center;
   position: fixed;
   left: 40%;
-  top: 25%;
+  top: 15%;
   width: 350px;
-  height: 350px;
+  height: 550px;
   background-color: rgb(4, 62, 137);
   display: none;
   border-radius: 15px;
+}
+.modal_block_edit h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .edit_block {
@@ -248,4 +274,216 @@ body {
   background-color: rgb(36, 161, 90);
   color: azure;
   text-transform: uppercase;
+}
+
+/** start style filter buttons */
+
+.filter_btns {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin: 3em auto 6em;
+}
+.filter_btn {
+  width: 180px;
+  height: 50px;
+  background-color: white;
+  border: 2px solid;
+  transition: 0.3s;
+  border-radius: 40px;
+}
+.filter_btn:hover {
+  background-color: rgb(36, 161, 90);
+  color: white;
+}
+/** end style filter buttons */
+
+/* ! ------------------ MODAL DETAILS ----------------------- */
+#modal {
+  display: none;
+  justify-content: space-between;
+  width: 800px;
+  height: 600px;
+  border: 3px solid white;
+  position: fixed;
+  top: 10%;
+  left: 23%;
+  background-color: #fff;
+}
+.modalImg {
+  width: 50%;
+}
+.modalImg img {
+  width: 100%;
+  height: 100%;
+}
+
+#modalRight {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  width: 50%;
+}
+
+#modalRight h2 {
+  font-size: 26px;
+  margin: 60px 0 15px 0;
+}
+
+#modalRight h3 {
+  font-weight: 500;
+  font-size: 30px;
+  margin: 15px;
+}
+
+#modalRight p {
+  max-width: 80%;
+  margin-bottom: 5px;
+  font-size: 20px;
+  margin: 15px;
+  text-align: center;
+}
+
+#closeBtn {
+  margin-top: 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 200%;
+  border: none;
+  background-image: url(../images/cancel.svg);
+  background-color: none;
+  background-size: cover;
+}
+
+/* ! ---------------- ADAPTIVE--------------------- */
+@media all and (max-width: 1100px) {
+  #modal {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 500px;
+    border: 3px solid white;
+    position: fixed;
+    top: 10%;
+    left: 15%;
+    background-color: #fff;
+  }
+  #modalRight h2 {
+    font-size: 13px;
+    /* margin: 60px 0 15px 0; */
+  }
+
+  #modalRight h3 {
+    font-weight: 500;
+    font-size: 20px;
+    /* margin: 10px; */
+  }
+
+  #modalRight p {
+    /* max-width: 80%; */
+    margin-bottom: 5px;
+    font-size: 13px;
+    /* margin: 15px; */
+    text-align: center;
+  }
+  .modalImg {
+    display: none;
+  }
+  #modalRight {
+    width: 100%;
+  }
+  .modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 4%;
+    top: 1%;
+    width: 300px;
+    height: 550px;
+    background-color: rgb(2, 55, 116);
+    display: none;
+    border-radius: 15px;
+  }
+}
+/* * На меленьких экранах убрали все кнопки редактирования и удаления а так же скрыли постер  */
+@media all and (max-width: 380px) {
+  #modal {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 500px;
+    border: 3px solid white;
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    background-color: #fff;
+  }
+  #modalRight h2 {
+    font-size: 13px;
+    /* margin: 60px 0 15px 0; */
+  }
+
+  #modalRight h3 {
+    font-weight: 500;
+    font-size: 20px;
+    /* margin: 10px; */
+  }
+
+  #modalRight p {
+    /* max-width: 80%; */
+    margin-bottom: 5px;
+    font-size: 13px;
+    /* margin: 15px; */
+    text-align: center;
+  }
+  .modalImg {
+    display: none;
+  }
+  #modalRight {
+    width: 100%;
+  }
+  .user-n:hover .btn_model_edit {
+    display: none;
+  }
+  .user-n:hover .btn_model_close {
+    display: none;
+  }
+}
+
+@media all and (max-width: 320px) {
+  #modal {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 500px;
+    border: 3px solid white;
+    position: fixed;
+    top: 10%;
+    left: 2.5%;
+    background-color: #fff;
+  }
+  .modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 4%;
+    top: 1%;
+    width: 300px;
+    height: 550px;
+    background-color: rgb(2, 55, 116);
+    display: none;
+    border-radius: 15px;
+  }
+  .user-n:hover .btn_model_edit {
+    display: none;
+  }
+  .user-n:hover .btn_model_close {
+    display: none;
+  }
 }
