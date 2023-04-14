@@ -28,7 +28,7 @@
       "Poster": "https://m.media-amazon.com/images/M/MV5BMTYyOTAxMDA0OF5BMl5BanBnXkFtZTcwNzgwNTc1NA@@._V1_FMjpg_UX1000_.jpg",
       "Desk": "!Josh and Renai move to a new house, seeking a fresh start. However, when their son, Dalton, mysteriously falls into a coma, paranormal events start occurring in the house.",
       "Trailer": "https://www.youtube.com/embed/zuZnRUcoWos",
-      "id": 25
+      "id": 26
     },
     {
       "Title": "Brightburn",
@@ -114,7 +114,7 @@
   "Admin": {
     "name": "admin",
     "password": "1234",
-    "status": "false",
+    "status": "true",
     "id": "1"
   }
 }
