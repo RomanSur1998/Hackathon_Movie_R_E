@@ -29,7 +29,7 @@ let trailer =document.querySelector('.trailer')
 let  inp = document.querySelector('#inp')
 inp.addEventListener('input', ()=>{
 let a = inp.value.trim().toLowerCase()
-let b = fetch('http://localhost:8005/Search/')
+let b = fetch(`http://localhost:8005/Search`)
 users.innerHTML = ''
 b.then((res)=>{
   return res.json()
@@ -37,18 +37,18 @@ b.then((res)=>{
   if(a!= ''){
   info.forEach((elem,)=>{
     if(elem.Title.toLowerCase().includes(a)){
-     console.log(elem.Title)
+     console.log(elem.id,elem.Title)
      users.innerHTML +=`
      <div class="user-n" >
      <img
      src="${elem.Poster}"
       alt="user"
-       width="100"/>
+       width="100" onclick="showDetailsModal(${elem.id})"/>
      <h5>${elem.Title}</h5>
      <h6> Year : ${elem.Year}</h6>
      <h6>ImdbID :${elem.imdbID}</h6>
      <h6 id ="last">Type :${elem.Type}</h6>
-     <button class="btn_model_close"></button>
+     
      `
     }
 
@@ -56,19 +56,10 @@ b.then((res)=>{
   else{
     users.innerHTML =''
     info.forEach((elem)=>{
-      users.innerHTML +=`
-      <div class="user-n" >
-      <img
-      src="${elem.Poster}"
-       alt="user"
-        width="100"/>
-      <h5>${elem.Title}</h5>
-      <h6> Year : ${elem.Year}</h6>
-      <h6>ImdbID :${elem.imdbID}</h6>
-      <h6 id ="last">Type :${elem.Type}</h6>
-      <button  class="btn_model_close"></button>
-      `
+     admin()
+     
     })
+  
   }
 }).catch()
 
@@ -135,14 +126,14 @@ function deleteCard (id) {
     'Content-type':'application/json'
   }
  })
- readMov()
+ admin()
 }
 
 // ! =============ADMIN=====
 // ! =============LOG IN TO ADMIN============
 // ! PASSWORD ==== 1234
-let admin =document.querySelector('.admin')
-admin.addEventListener('click',()=>{
+let logIn =document.querySelector('#user')
+logIn.addEventListener('click',()=>{
   let inpPrompt =prompt('ADD PASSWORD')
   console.log(inpPrompt);
   fetch('http://localhost:8005/Admin/').then((res)=>{
@@ -153,7 +144,7 @@ admin.addEventListener('click',()=>{
 let obj = {
   "name": "admin",
   "password": "1234",
-  "status": "true"
+  "status": "false"
 }
 console.log(obj);
 fetch(`http://localhost:8005/Admin/` , { 
@@ -163,7 +154,7 @@ fetch(`http://localhost:8005/Admin/` , {
   },   
   body:JSON.stringify(obj ), 
 })
-document.location.reload()
+  document.location.reload()
     }
   })
 })
@@ -173,7 +164,7 @@ user.addEventListener('click',()=>{
   let obj = {
     "name": "admin",
     "password": "1234",
-    "status": "false"
+    "status": "true"
   }
   fetch(`http://localhost:8005/Admin/` , { 
   method:"PATCH", 
@@ -186,44 +177,53 @@ document.location.reload()
 })
 
 
-async function Amdin() {
-  let res = await fetch('http://localhost:8005/Admin/')
-  let data = await res.json()
-  if(data.status == 'false'){
-    addList.style.display ='none'
-    let btns = document.querySelectorAll('.btn_model_edit')
-      btns.forEach((elem)=>{
-    elem.style.display='none'
-  })
-    let btns1 = document.querySelectorAll('.btn_model_close')
-      btns1.forEach((elem)=>{
-    elem.style.display='none'
-  })
+// async function Amdin() {
+//   let res = await fetch('http://localhost:8005/Admin/')
+//   let data = await res.json()
+//   if(data.status == 'false'){
+//     addList.style.display ='none'
+//     let btns = document.querySelectorAll('.btn_model_edit')
+//       btns.forEach((elem)=>{
+//     elem.style.display='none'
+//   })
+//     let btns1 = document.querySelectorAll('.btn_model_close')
+//       btns1.forEach((elem)=>{
+//     elem.style.display='none'
+//   })
  
-} 
-else{
-  addList.style.display ='block'
-  let btns = document.querySelectorAll('.btn_model_edit')
-    btns.forEach((elem)=>{
-  elem.style.display='block'
-})
-  let btns1 = document.querySelectorAll('.btn_model_close')
-    btns1.forEach((elem)=>{
-  elem.style.display='block'
-})
-}
+// } 
+// else{
+//   addList.style.display ='block'
+//   let btns = document.querySelectorAll('.btn_model_edit')
+//     btns.forEach((elem)=>{
+//   elem.style.display='block'
+// })
+//   let btns1 = document.querySelectorAll('.btn_model_close')
+//     btns1.forEach((elem)=>{
+//   elem.style.display='block'
+// })
+// }
 
- }
- setTimeout( Amdin,300)
+//  }
+//  setTimeout( Amdin,300)
+
+
 
 
 
 // ! READ & SHOW Чтение и отображение
-async function readMov(){
+
+
+async function admin() {
+  let res = await fetch('http://localhost:8005/Admin/')
+  let data = await res.json()
+console.log(data.status)
+if(data.status== "false"){
+
+  async function readMov(){
     let res = filterValue !== "ALL"? await fetch(`http://localhost:8005/Search?_page=${currentPage}&_limit=5&Type=${filterValue}`) : await fetch(`http://localhost:8005/Search?_page=${currentPage}&_limit=5`)
     let data = await res.json();
 
-//   fetch(`http://localhost:8005/Search?_page=${currentPage}&_limit=5&Type=${filterValue}`).then(res=>res.json()).then(data=>{
     users.innerHTML=``;
     data.forEach((elem)=>{
     users.innerHTML +=`
@@ -244,6 +244,43 @@ async function readMov(){
 countPage();
 }
 readMov();
+
+}
+else{
+  async function readMov(){
+    let res = filterValue !== "ALL"? await fetch(`http://localhost:8005/Search?_page=${currentPage}&_limit=5&Type=${filterValue}`) : await fetch(`http://localhost:8005/Search?_page=${currentPage}&_limit=5`)
+    let data = await res.json();
+    addList.style.display ='none'
+    users.innerHTML=``;
+    data.forEach((elem)=>{
+    users.innerHTML +=`
+      <div class="user-n" >
+      <img
+      src="${elem.Poster}"
+       alt="user"
+        width="100" onclick="showDetailsModal(${elem.id})"/>
+      <h5>${elem.Title}</h5>
+      <h6> Year :  ${elem.Year}</h6>
+      <h6>ImdbID :${elem.imdbID}</h6>
+      <h6 id ="last">Type :${elem.Type}</h6>
+
+
+      `
+  });
+countPage();
+}
+readMov();
+
+  
+}
+  
+}
+admin()
+
+
+
+
+
 
 
 
@@ -299,7 +336,7 @@ function editCard (index) {
   
 
     modalEdit.style.display="none"
-    readMov()
+    admin()
   }
   else{
     alert('Заполните поля редактирования ')
@@ -340,7 +377,7 @@ async function countPage() {
 prevBtn.addEventListener('click', ()=> {
     if(currentPage<=1)return;
     currentPage--;
-    readMov();
+    admin();
     console.log(currentPage);
 })
 
@@ -349,7 +386,7 @@ prevBtn.addEventListener('click', ()=> {
 nextBtn.addEventListener('click',()=>{
     if(currentPage>=pageLength)return;
     currentPage++;
-    readMov();
+    admin();
     console.log(currentPage);
 })
 
@@ -358,7 +395,7 @@ nextBtn.addEventListener('click',()=>{
 filterBtns.forEach((elem)=>{
     elem.addEventListener('click',()=>{
         filterValue = elem.innerText;
-        readMov()
+        admin()
     })
 })
 

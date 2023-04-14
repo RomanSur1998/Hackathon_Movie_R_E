@@ -13,20 +13,29 @@ body {
 /* ! -------ADMIN------  */
 .admin {
   display: flex;
-  justify-content: center;
+  justify-content: end;
+
   width: 100%;
+}
+#user1 {
+  margin-right: 20%;
+}
+#user {
+  margin-right: 20px;
 }
 .admin button {
   background-color: rgb(209, 49, 49);
+  height: 30px;
 
   /* !----------- CARDS-------------- */
 }
+
 .users {
   width: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   background-color: rgb(1, 0, 22);
 }
@@ -82,9 +91,9 @@ body {
 }
 
 #inp {
-  margin: 20px auto;
+  margin: 20px 10%;
   text-align: center;
-  width: 600px;
+  width: 1000px;
   height: 50px;
   border-radius: 5px;
   margin-right: 10vw;
@@ -102,7 +111,7 @@ body {
 .addList {
   height: 50px;
   width: 300px;
-  margin-left: 10vw;
+  margin-left: 10%;
   border-radius: 40px;
   border: none;
   color: azure;
