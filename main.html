@@ -15,13 +15,30 @@
   </head>
   <body>
     <header class="add">
-      <button class="addList">ADD MOVIE</button>
-      <input type="text" placeholder="Поиск" id="inp" />
       <div class="admin">
         <button class="filter_btn" id="user">ADMIN</button>
         <button class="filter_btn" id="user1">USER</button>
+        <button id="admin_entries"  >ADMIN LOG IN</button>
       </div>
+      <button class="addList">ADD MOVIE</button>
+      <input type="text" placeholder="Поиск" id="inp" />
     </header>
+    <!-- ! --------------Caruesel ----------- -->
+    <div class="block_slider">
+      <button class="slider_prev"><img src="./images/chevron-left.svg" alt=""></button>
+    <div class="sliderContainer">
+      <div class="sliderLine">
+        <img class="sliderImage"   src="https://pyxis.nymag.com/v1/imgs/a15/944/4ce87020bea63e15b317757872381bbf9b-avatar-the-way-of-water.jpg" alt="">
+        <img class="sliderImage"  src="https://lumiere-a.akamaihd.net/v1/images/pp_20cs_avatarwayofwater_herobanner_1710_0e197eab.jpeg?region=0%2C0%2C2048%2C878" alt="">
+        <img  class="sliderImage" src="https://res.cloudinary.com/ybmedia/image/upload/c_crop,h_748,w_1332,x_3,y_132/c_fill,f_auto,h_900,q_auto,w_1600/v1/m/b/d/bdc65a884c00ef4c925cadba059e7bc08a30b39c/20-facts-might-know-guardians-galaxy.jpg" alt="">
+       
+      </div>
+    </div>
+   
+    <button class="slider_next"><img src="./images/chevron-right.svg" alt=""></button>
+  </div>
+
+ 
     <!-- !filter buttons  -->
     <div class="filter_btns container">
       <button class="filter_btn" id="btn1">HORROR</button>
@@ -66,7 +83,7 @@
       <button id="nextBtn">Next</button>
     </div>
 
-    <!-- ? Start modal -->
+    <!-- ! Start modal -->
     <div id="modal">
       <div class="modalImg">
         <img
@@ -98,8 +115,55 @@
         </div>
       </div>
     </div>
-    <!-- ? Finish modal -->
+    <!-- ! Finish modal -->
 
-    <script src="./js/main.js"></script>
+    <!-- ! START MODAL ADMIN PANEL  -->
+    <div class="modal_admin">
+      <div class="modalAdmin_top">
+        <h3>Admin</h3>
+      </div>
+      <div class="modalAdmin_bot">
+        <input id="admin_log" placeholder="Log in" type="text" />
+        <input id="admin_pass" placeholder="Password" type="text" />
+        <button>Log in</button>
+      </div>
+      <button id="close_admimmodal"></button>
+    </div>
+    <!-- ! FINISH MODAL ADMIN PANEL  -->
+
+    <footer>
+      <div class="wrapper">
+        <div class="block_1">
+          <a href=""><img src="./images/logo.svg" alt="" /></a>
+          <div class="text_politics">
+            <p>© Все права защищены</p>
+            <p class="paddding">Политика конфиденциальности</p>
+            <p>Публичная оферта</p>
+          </div>
+        </div>
+        <div class="footer_links">
+          <p>Главная</p>
+          <div class="clothes-links">
+            <p>Магазин</p>
+            <div class="clothes">
+              <p>Категории</p>
+              <p>Категории</p>
+              <p>Категории</p>
+              <p>Категории</p>
+            </div>
+          </div>
+          <p>О фильмах</p>
+          <p>Контакты</p>
+        </div>
+        <div class="block_2">
+          <p>+7 (495) 823-54-12</p>
+          <p>hello@womazing.com</p>
+      
+          <img class="img_master" src="./images/visa-mastercard 1.svg" alt="" />
+        </div>
+      </div>
+    </footer>
+    <div>
+ <script src="./js/main.js"></script>
   </body>
 </html>

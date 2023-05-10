@@ -11,7 +11,7 @@
       "id": 23
     },
     {
-      "Title": " The Nun ",
+      "Title": " The Nun 3463",
       "Year": "2018",
       "imdbID": "60",
       "Type": "HORROR",
@@ -21,23 +21,23 @@
       "id": 25
     },
     {
-      "Title": " Insidious",
-      "Year": "2010",
-      "imdbID": "86",
+      "Title": " The Nun 3245t42",
+      "Year": "1323456787654",
+      "imdbID": "1920",
       "Type": "HORROR",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMTYyOTAxMDA0OF5BMl5BanBnXkFtZTcwNzgwNTc1NA@@._V1_FMjpg_UX1000_.jpg",
-      "Desk": "!Josh and Renai move to a new house, seeking a fresh start. However, when their son, Dalton, mysteriously falls into a coma, paranormal events start occurring in the house.",
-      "Trailer": "https://www.youtube.com/embed/zuZnRUcoWos",
+      "Poster": "https://media.kg-portal.ru/movies/n/nun/posters/nun_10.jpg",
+      "Desk": "When a young nun at a cloistered abbey in Romania takes her own life, a priest with a haunted past and a novitiate on the threshold of her final vows are sent by the Vatican to investigate.",
+      "Trailer": "https://www.youtube.com/embed/pzD9zGcUNrw",
       "id": 26
     },
     {
-      "Title": "Brightburn",
-      "Year": "2019",
-      "imdbID": "84",
-      "Type": "HORROR",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMjc0YzM2ZjItNzE3OS00NTRhLTkyNTUtMjY5Y2Y5NTU3OWI0XkEyXkFqcGdeQXVyNjU2NTI4MjE@._V1_.jpg",
-      "Desk": "Tori and Kyle find a baby boy in a spaceship and adopt him as their own child, Brandon. However, after turning 12, Brandon learns that he has superpowers and begins to use them for sinister purposes.",
-      "Trailer": "https://www.youtube.com/embed/g6eB0JT1DI4",
+      "Title": "The Avengers Endgame",
+      "Year": "1234567865432",
+      "imdbID": "83",
+      "Type": "SCI-FI",
+      "Poster": "https://m.media-amazon.com/images/I/71niXI3lxlL._SL1183_.jpg",
+      "Desk": "After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance.",
+      "Trailer": "https://www.youtube.com/embed/TcMBFSGVi1c",
       "id": 27
     },
     {
@@ -71,50 +71,170 @@
       "id": 30
     },
     {
-      "Title": "Kill Bill",
-      "Year": "2003",
-      "imdbID": "94",
-      "Type": "ACTION",
-      "Poster": "https://o22oxailtq6y.wpcdn.shift8cdn.com/wp-content/uploads/2022/10/97652.webp",
-      "Desk": "A pregnant assassin, code-named The Bride, goes into a coma for four years after her ex-boss Bill brutally attacks her. When she wakes up, she sets out to seek revenge on him and his associates.",
-      "Trailer": "https://www.youtube.com/embed/7kSuas6mRpk",
-      "id": 31
-    },
-    {
-      "Title": "Joker",
-      "Year": "2019",
-      "imdbID": "92",
-      "Type": "DRAMA",
-      "Poster": "https://coconuts.co/wp-content/uploads/2019/11/01_joker.jpg",
-      "Desk": "Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City.",
-      "Trailer": "https://www.youtube.com/embed/zAGVQLHvwOY",
-      "id": 32
-    },
-    {
-      "Title": "Parasite",
-      "Year": "2019",
-      "imdbID": "100",
-      "Type": "DRAMA",
-      "Poster": "https://assets.mubicdn.net/images/notebook/post_images/29836/images-w1400.jpg?1579571205",
-      "Desk": "The struggling Kim family sees an opportunity when the son starts working for the wealthy Park family. Soon, all of them find a way to work within the same household and start living a parasitic life.",
-      "Trailer": "https://www.youtube.com/embed/5xH0HfJHsaY",
+      "Title": "Blade Runner 2049",
+      "Year": "2017",
+      "imdbID": "98",
+      "Type": "SCI-FI",
+      "Poster": "https://alternativemovieposters.com/wp-content/uploads/2022/11/Matt-Ferguson_BladeRunner.jpg",
+      "Desk": "K, an officer with the Los Angeles Police Department, unearths a secret that could create chaos. He goes in search of a former blade runner who has been missing for over three decades.",
+      "Trailer": "https://www.youtube.com/embed/gCcx85zbxz4",
       "id": 33
     },
     {
-      "Title": "Rush Hour",
-      "Year": "1998",
-      "imdbID": "78",
-      "Type": "ACTION",
-      "Poster": "https://m.media-amazon.com/images/I/61hn3gcwBvL.jpg",
-      "Desk": "When a Chinese consul's young daughter is kidnapped, Hong Kong Detective Lee must team up with Carter, a loud-mouthed LA detective. Distinctive work styles and cultural differences pose hiccups.",
-      "Trailer": "https://www.youtube.com/embed/JMiFsFQcFLE",
-      "id": 34
+      "Title": "Blade Runner 2049",
+      "Year": "2022",
+      "imdbID": "95",
+      "Type": "SCI-FI",
+      "Poster": "https://alternativemovieposters.com/wp-content/uploads/2022/11/Matt-Ferguson_BladeRunner.jpg",
+      "Desk": "K, an officer with the Los Angeles Police Department, unearths a secret that could create chaos. He goes in search of a former blade runner who has been missing for over three decades.",
+      "Trailer": "https://www.youtube.com/embed/gCcx85zbxz4",
+      "id": 35
+    },
+    {
+      "Title": "Blade Runner 2049",
+      "Year": "2022",
+      "imdbID": "95",
+      "Type": "SCI-FI",
+      "Poster": "https://alternativemovieposters.com/wp-content/uploads/2022/11/Matt-Ferguson_BladeRunner.jpg",
+      "Desk": "K, an officer with the Los Angeles Police Department, unearths a secret that could create chaos. He goes in search of a former blade runner who has been missing for over three decades.",
+      "Trailer": "https://www.youtube.com/embed/gCcx85zbxz4",
+      "id": 355
+    },
+    {
+      "Title": "Blade Runner 2049",
+      "Year": "2022",
+      "imdbID": "95",
+      "Type": "SCI-FI",
+      "Poster": "https://alternativemovieposters.com/wp-content/uploads/2022/11/Matt-Ferguson_BladeRunner.jpg",
+      "Desk": "K, an officer with the Los Angeles Police Department, unearths a secret that could create chaos. He goes in search of a former blade runner who has been missing for over three decades.",
+      "Trailer": "https://www.youtube.com/embed/gCcx85zbxz4",
+      "id": 356
+    },
+    {
+      "Title": "Blade Runner 2049",
+      "Year": "2022",
+      "imdbID": "95",
+      "Type": "SCI-FI",
+      "Poster": "https://alternativemovieposters.com/wp-content/uploads/2022/11/Matt-Ferguson_BladeRunner.jpg",
+      "Desk": "K, an officer with the Los Angeles Police Department, unearths a secret that could create chaos. He goes in search of a former blade runner who has been missing for over three decades.",
+      "Trailer": "https://www.youtube.com/embed/gCcx85zbxz4",
+      "id": 345689
+    },
+    {
+      "Title": "Blade Runner 2049",
+      "Year": "2022",
+      "imdbID": "95",
+      "Type": "SCI-FI",
+      "Poster": "https://alternativemovieposters.com/wp-content/uploads/2022/11/Matt-Ferguson_BladeRunner.jpg",
+      "Desk": "K, an officer with the Los Angeles Police Department, unearths a secret that could create chaos. He goes in search of a former blade runner who has been missing for over three decades.",
+      "Trailer": "https://www.youtube.com/embed/gCcx85zbxz4",
+      "id": 34567
+    },
+    {
+      "Title": "Blade Runner 2049",
+      "Year": "2022",
+      "imdbID": "95",
+      "Type": "SCI-FI",
+      "Poster": "https://alternativemovieposters.com/wp-content/uploads/2022/11/Matt-Ferguson_BladeRunner.jpg",
+      "Desk": "K, an officer with the Los Angeles Police Department, unearths a secret that could create chaos. He goes in search of a former blade runner who has been missing for over three decades.",
+      "Trailer": "https://www.youtube.com/embed/gCcx85zbxz4",
+      "id": 32345
+    },
+    {
+      "Title": "Blade Runner 2049",
+      "Year": "2022",
+      "imdbID": "95",
+      "Type": "SCI-FI",
+      "Poster": "https://alternativemovieposters.com/wp-content/uploads/2022/11/Matt-Ferguson_BladeRunner.jpg",
+      "Desk": "K, an officer with the Los Angeles Police Department, unearths a secret that could create chaos. He goes in search of a former blade runner who has been missing for over three decades.",
+      "Trailer": "https://www.youtube.com/embed/gCcx85zbxz4",
+      "id": 678
+    },
+    {
+      "Title": "Blade Runner 2049",
+      "Year": "2022",
+      "imdbID": "95",
+      "Type": "SCI-FI",
+      "Poster": "https://alternativemovieposters.com/wp-content/uploads/2022/11/Matt-Ferguson_BladeRunner.jpg",
+      "Desk": "K, an officer with the Los Angeles Police Department, unearths a secret that could create chaos. He goes in search of a former blade runner who has been missing for over three decades.",
+      "Trailer": "https://www.youtube.com/embed/gCcx85zbxz4",
+      "id": 38
+    },
+    {
+      "Title": " The Nun 2",
+      "Year": "2018",
+      "imdbID": "60",
+      "Type": "HORROR",
+      "Poster": "https://media.kg-portal.ru/movies/n/nun/posters/nun_10.jpg",
+      "Desk": "When a young nun at a cloistered abbey in Romania takes her own life, a priest with a haunted past and a novitiate on the threshold of her final vows are sent by the Vatican to investigate.",
+      "Trailer": "https://www.youtube.com/embed/pzD9zGcUNrw",
+      "id": 578
+    },
+    {
+      "Title": " The Nun 2",
+      "Year": "2018",
+      "imdbID": "60",
+      "Type": "HORROR",
+      "Poster": "https://media.kg-portal.ru/movies/n/nun/posters/nun_10.jpg",
+      "Desk": "When a young nun at a cloistered abbey in Romania takes her own life, a priest with a haunted past and a novitiate on the threshold of her final vows are sent by the Vatican to investigate.",
+      "Trailer": "https://www.youtube.com/embed/pzD9zGcUNrw",
+      "id": 28784
+    },
+    {
+      "Title": " The Nun 2",
+      "Year": "2018",
+      "imdbID": "60",
+      "Type": "HORROR",
+      "Poster": "https://media.kg-portal.ru/movies/n/nun/posters/nun_10.jpg",
+      "Desk": "When a young nun at a cloistered abbey in Romania takes her own life, a priest with a haunted past and a novitiate on the threshold of her final vows are sent by the Vatican to investigate.",
+      "Trailer": "https://www.youtube.com/embed/pzD9zGcUNrw",
+      "id": 134
+    },
+    {
+      "Title": " The Nun 2",
+      "Year": "2018",
+      "imdbID": "60",
+      "Type": "HORROR",
+      "Poster": "https://media.kg-portal.ru/movies/n/nun/posters/nun_10.jpg",
+      "Desk": "When a young nun at a cloistered abbey in Romania takes her own life, a priest with a haunted past and a novitiate on the threshold of her final vows are sent by the Vatican to investigate.",
+      "Trailer": "https://www.youtube.com/embed/pzD9zGcUNrw",
+      "id": 28955
+    },
+    {
+      "Title": " The Nun 3245t42",
+      "Year": "1323456787654",
+      "imdbID": "1920",
+      "Type": "HORROR",
+      "Poster": "https://media.kg-portal.ru/movies/n/nun/posters/nun_10.jpg",
+      "Desk": "When a young nun at a cloistered abbey in Romania takes her own life, a priest with a haunted past and a novitiate on the threshold of her final vows are sent by the Vatican to investigate.",
+      "Trailer": "https://www.youtube.com/embed/pzD9zGcUNrw",
+      "id": 23546
+    },
+    {
+      "Title": " The Nun 3245t42",
+      "Year": "1323456787654",
+      "imdbID": "1920",
+      "Type": "HORROR",
+      "Poster": "https://media.kg-portal.ru/movies/n/nun/posters/nun_10.jpg",
+      "Desk": "When a young nun at a cloistered abbey in Romania takes her own life, a priest with a haunted past and a novitiate on the threshold of her final vows are sent by the Vatican to investigate.",
+      "Trailer": "https://www.youtube.com/embed/pzD9zGcUNrw",
+      "id": 77
+    },
+    {
+      "Title": " The Nun 3245t42",
+      "Year": "1323456787654",
+      "imdbID": "1920",
+      "Type": "HORROR",
+      "Poster": "https://media.kg-portal.ru/movies/n/nun/posters/nun_10.jpg",
+      "Desk": "When a young nun at a cloistered abbey in Romania takes her own life, a priest with a haunted past and a novitiate on the threshold of her final vows are sent by the Vatican to investigate.",
+      "Trailer": "https://www.youtube.com/embed/pzD9zGcUNrw",
+      "id": 2890
     }
   ],
   "Admin": {
     "name": "admin",
     "password": "1234",
-    "status": "true",
+    "status": "false",
     "id": "1"
   }
 }
