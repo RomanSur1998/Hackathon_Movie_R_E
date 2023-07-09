@@ -7,22 +7,18 @@
 }
 body {
   position: relative;
-  background-color: rgb(1, 0, 22);
+  background-color: rgb(11, 11, 31);
 }
 
 /* ! -------ADMIN------  */
 .admin {
+  width: 60%;
   display: flex;
-  justify-content: end;
+  justify-content: space-evenly;
 
-  width: 100%;
+  /* width: 100%; */
 }
-#user1 {
-  margin-right: 20%;
-}
-#user {
-  margin-right: 20px;
-}
+
 .admin button {
   background-color: rgb(209, 49, 49);
   height: 30px;
@@ -37,13 +33,12 @@ body {
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  background-color: rgb(1, 0, 22);
 }
 .user-n {
   position: relative;
   width: 220px;
   height: 540px;
-  background-color: rgb(1, 20, 44);
+  background-color: #fff;
   border-radius: 15px;
   text-align: center;
   margin: 20px;
@@ -64,24 +59,24 @@ body {
   height: 65%;
 }
 .user-n h6 {
-  background-color: rgb(1, 20, 44);
+  background-color: #fff;
   margin: 5px;
   margin-left: 15px;
   font-size: small;
   font-weight: 500;
   text-transform: uppercase;
-  color: rgba(240, 248, 255, 0.801);
+  color: black;
   text-align: start;
 }
 .user-n h5 {
   margin-left: 30px;
-  background-color: rgb(1, 20, 44);
+  background-color: #fff;
   margin: 10px;
   font-size: large;
   font-weight: 500;
   text-transform: uppercase;
   text-align: start;
-  color: aliceblue;
+  color: black;
 }
 #last {
   margin-bottom: 20px;
@@ -91,27 +86,27 @@ body {
 }
 
 #inp {
-  margin: 20px 10%;
+  margin: 30px 5%;
   text-align: center;
-  width: 1000px;
+  width: 700px;
   height: 50px;
   border-radius: 5px;
-  margin-right: 10vw;
+  /* margin-right: 5vw; */
   border: none;
   border-radius: 40px;
 }
 .add {
-  width: 100vw;
+  width: 100%;
   height: 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  margin-bottom: 50px;
+  /* margin-bottom: 60px; */
 }
 .addList {
   height: 50px;
   width: 300px;
-  margin-left: 10%;
+  /* margin-left: 5%; */
   border-radius: 40px;
   border: none;
   color: azure;
@@ -363,6 +358,181 @@ body {
   background-image: url(../images/cancel.svg);
   background-color: none;
   background-size: cover;
+}
+footer {
+  background-color: rgb(203, 203, 211);
+}
+.wrapper {
+  width: 100%;
+  padding: 100px 210px;
+  display: flex;
+}
+.text_politics {
+  padding-top: 60px;
+  height: 65px;
+}
+.footer_links {
+  display: flex;
+  width: 380px;
+  justify-content: space-between;
+  padding-left: 80px;
+}
+.wrapper p {
+  margin: 0;
+  padding: 0;
+}
+.text_politics p {
+  padding: 8px 0;
+  font-size: 13px;
+}
+
+.clothes {
+  padding-top: 40px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer_links p:hover {
+  color: #6e9c9f;
+  cursor: pointer;
+  /* font-size: 15px;
+  font-weight: bold; */
+}
+
+.block_2 {
+  padding-left: 180px;
+  text-align: end;
+}
+.clothes p {
+  font-size: 13px;
+}
+.social {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-top: 30px;
+}
+.img_master {
+  padding-top: 30px;
+}
+.block_2 p:nth-child(2) {
+  padding-top: 10px;
+}
+
+/* !ADMIN MODAL */
+
+.modal_admin {
+  display: flex;
+  position: fixed;
+  top: 8%;
+  left: 10%;
+  justify-content: center;
+  flex-direction: column;
+  background-color: aliceblue;
+  width: 80%;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  display: none;
+}
+.modalAdmin_top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+#close_admimmodal {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  top: 2vh;
+  right: 2vw;
+  border-radius: 200%;
+  border: none;
+  background-image: url(../images/cancel.svg);
+  background-color: aliceblue;
+  background-size: cover;
+}
+.modalAdmin_top h3 {
+  text-transform: uppercase;
+  margin-top: 3%;
+  font-size: 30px;
+}
+.modalAdmin_bot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modalAdmin_bot button {
+  border: none;
+  width: 150px;
+  height: 40px;
+  margin: 40px 10px;
+  border-radius: 40px;
+  border: none;
+  background-color: rgb(36, 161, 90);
+  color: azure;
+  text-transform: uppercase;
+}
+.modalAdmin_bot input {
+  margin: 30px 5%;
+  text-align: center;
+  width: 700px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  border-radius: 40px;
+}
+#admin_entries {
+  width: 180px;
+  height: 30px;
+  background-color: rgb(209, 49, 49);
+  border: 2px solid;
+  transition: 0.3s;
+  border-radius: 40px;
+}
+#admin_entries:hover {
+  background-color: rgb(36, 161, 90);
+  color: aliceblue;
+  border: 1px solid aliceblue;
+}
+/* ! -------SLIDER-------------- */
+.block_slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.block_slider button {
+  border-radius: 90px;
+  width: 70px;
+  height: 70px;
+  border: none;
+}
+.block_slider button:hover {
+  background-color: rgb(36, 161, 90);
+  border: #fff 2px solid;
+}
+
+.sliderLine {
+  display: flex;
+  align-items: center;
+}
+
+.sliderImage {
+  object-fit: cover;
+  max-width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  border: #fff solid 2px;
+}
+.sliderContainer {
+  width: 80%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.block_slider button {
+  margin: 20px;
 }
 
 /* ! ---------------- ADAPTIVE--------------------- */

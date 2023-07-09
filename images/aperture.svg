@@ -1,0 +1,11 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="aperture">
+<path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="black"/>
+<path id="Line" d="M3 16H14.3164" stroke="black" stroke-linecap="round"/>
+<path id="Line_2" d="M4.0359 6.20578L9.68259 15.9861" stroke="black" stroke-linecap="round"/>
+<path id="Line_3" d="M13.0359 2.20575L7.37891 12.004" stroke="black" stroke-linecap="round"/>
+<path id="Line_4" d="M10.9641 21.7942L16.6145 12.0074" stroke="black" stroke-linecap="round"/>
+<path id="Line_5" d="M19.9641 17.7942L14.3086 7.99866" stroke="black" stroke-linecap="round"/>
+<path id="Line_6" d="M21 7.98721H9.71843" stroke="black" stroke-linecap="round"/>
+</g>
+</svg>
